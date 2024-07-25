@@ -47,13 +47,10 @@ const Calculadora = () => {
 
       let evaluatedResult = eval(sanitizedInput); // eval puede ser peligroso, usa una alternativa más segura en producción
 
-      // Limitar el resultado a 6 dígitos totales
+      // Limitar los decimales a 6 dígitos y mostrar enteros completos
       if (typeof evaluatedResult === 'number') {
-        const [integerPart, decimalPart] = evaluatedResult.toString().split('.');
-        if (integerPart.length >= 6) {
-          evaluatedResult = integerPart.slice(0, 6);
-        } else if (decimalPart) {
-          evaluatedResult = parseFloat(evaluatedResult.toFixed(6 - integerPart.length));
+        if (!Number.isInteger(evaluatedResult)) {
+          evaluatedResult = parseFloat(evaluatedResult.toFixed(6));
         }
       }
 
