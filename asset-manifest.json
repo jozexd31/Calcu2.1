@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/git%20remote%20add%20new-origin%20https://github.com/jozexd31/Calcv2.0/static/css/main.314a4100.css",
-    "main.js": "/git%20remote%20add%20new-origin%20https://github.com/jozexd31/Calcv2.0/static/js/main.5852337e.js",
-    "index.html": "/git%20remote%20add%20new-origin%20https://github.com/jozexd31/Calcv2.0/index.html",
-    "main.314a4100.css.map": "/git%20remote%20add%20new-origin%20https://github.com/jozexd31/Calcv2.0/static/css/main.314a4100.css.map",
-    "main.5852337e.js.map": "/git%20remote%20add%20new-origin%20https://github.com/jozexd31/Calcv2.0/static/js/main.5852337e.js.map"
+    "main.css": "/jozexd31/Calcu2.1/static/css/main.314a4100.css",
+    "main.js": "/jozexd31/Calcu2.1/static/js/main.5852337e.js",
+    "index.html": "/jozexd31/Calcu2.1/index.html",
+    "main.314a4100.css.map": "/jozexd31/Calcu2.1/static/css/main.314a4100.css.map",
+    "main.5852337e.js.map": "/jozexd31/Calcu2.1/static/js/main.5852337e.js.map"
   },
   "entrypoints": [
     "static/css/main.314a4100.css",
